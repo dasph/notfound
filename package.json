@@ -1,0 +1,22 @@
+{
+  "name": "notfound",
+  "version": "0.0.0",
+  "description": "Simple 404 webpage",
+  "main": "notfound.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daspharion/notfound.git"
+  },
+  "keywords": [
+    "error",
+    "404",
+    "not",
+    "found"
+  ],
+  "author": "daspharion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daspharion/notfound/issues"
+  },
+  "homepage": "https://github.com/daspharion/notfound#readme"
+}
