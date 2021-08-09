@@ -1,22 +1,33 @@
 {
   "name": "notfound",
-  "version": "0.0.0",
-  "description": "Simple 404 webpage",
-  "main": "notfound.js",
+  "version": "0.1.0",
+  "description": "A simple 404 webpage",
+  "scripts": {
+    "tw": "tailwindcss -m -o ./src/styles.css",
+    "build": "webpack --mode production"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daspharion/notfound.git"
   },
   "keywords": [
-    "error",
     "404",
     "not",
     "found"
   ],
-  "author": "daspharion",
+  "author": "Andrew Nyzhnyk",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/daspharion/notfound/issues"
   },
-  "homepage": "https://github.com/daspharion/notfound#readme"
+  "homepage": "https://github.com/daspharion/notfound#readme",
+  "dependencies": {
+    "compression-webpack-plugin": "^8.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "tailwindcss": "^2.2.7",
+    "webpack": "^5.49.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
 }
